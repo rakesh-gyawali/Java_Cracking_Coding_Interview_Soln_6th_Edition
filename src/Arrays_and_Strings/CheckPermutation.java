@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package cracking_coding_interview_soln_6th_edition;
 
-/**
- *
- * @author rakes
- */
+package Arrays_and_Strings;
+
 //Check Permutation: Given two strings, write a method to decide if one is a permutation of the other. 
 public class CheckPermutation {
 
@@ -34,7 +26,7 @@ public class CheckPermutation {
         return true;
     }
 
-//O(N * logN) --> Sorting array and comparing --> There is better way ...
+//O(N * logN) --> Sorting array and comparing --> Still there is better way ...
     public boolean checkOptimized(String first, String second) {
         if (first.length() != second.length()) {
             return false;
@@ -50,7 +42,7 @@ public class CheckPermutation {
 
     }
 
-    //O(N) --> Counting each character --> Best way ...
+//O(N) --> Counting each character --> Best way ...
     public boolean checkBest(String first, String second) {
         if (first.length() != second.length()) {
             return false;

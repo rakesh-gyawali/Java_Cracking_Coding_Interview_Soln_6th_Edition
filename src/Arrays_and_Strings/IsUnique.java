@@ -1,4 +1,4 @@
-package cracking_coding_interview_soln_6th_edition;
+package Arrays_and_Strings;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
