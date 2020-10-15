@@ -5,6 +5,9 @@
  */
 package cracking_coding_interview_soln_6th_edition;
 
+import Arrays_and_Strings.OneAway;
+import Arrays_and_Strings.PalindromePermutation;
+import Arrays_and_Strings.StringCompression;
 import Arrays_and_Strings.URLify;
 
 /**
@@ -18,10 +21,10 @@ public class Cracking_coding_interview_soln_6th_edition {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       Boolean res;
-       URLify ul = new URLify();
-       char [] arr = "Mr John Smith    ".toCharArray();
-       System.out.println(ul.relpaceSpace(arr, 13));
+      StringCompression sc = new StringCompression();
+      String res =  sc.Compress("abbbbccciiissskkkssaa");
+      System.out.println(res);
+
     }
-    
+
 }
